@@ -1,0 +1,11 @@
+*.un~
+*.swo
+*.swp
+*.crx
+*.sublime*
+options/*.js
+node_modules/*
+dist
+jscoverage.json
+tags
+.cake_task_cache
