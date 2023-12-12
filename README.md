@@ -1,9 +1,12 @@
 # QA GPT
 
-One of the most painful and ignored parts of software development is thorough testing. Sure, great engineers will write unit tests & integration tests. Some might even write UI tests. But if you're lazy like me, you tend to be a little lackadaisical when it comes to testing your product with the user in mind. A quote I've frequently heard is "That's the QA teams job" when it comes to functionality testing. I made QA GPT to help engineers & QA teams test the functionality of their products without writing any code and without spending already constrained human time doing functionality tests.
+One of the most painful and ignored parts of software development is thorough testing. Sure, great engineers will write unit tests & integration tests. Some might even write UI tests. But if you're lazy like me, you tend to be a little lackadaisical when it comes to testing your product with the user in mind. A quote I've frequently heard is "That's the QA team's job" when it comes to functionality testing.
 
-Here's a short demo video showing how it looks:
-![](demo.mov)
+I made QA GPT to help engineers & QA teams test the functionality of their products without writing any code and without spending already constrained human time doing functionality tests.
+
+Here's a short demo video showing how it works:
+
+https://nucleus-form.s3.us-west-2.amazonaws.com/Screen+Recording+2023-12-07+at+10.53.23+PM.mov
 
 ## Running QA GPT
 
@@ -21,6 +24,7 @@ I've included an example testing task in `main.py` that logs into a website with
 - [x] Use GPT-4 Vision to automate browser actions
 - [x] Basic actions like click + fill in an input field
 - [x] Prompt engineering to make it recognize when things go wrong
+- [x] Log stack traces and record sessions
 - [ ] Drag and drop action
 - [ ] Map stack traces to timestamps in video recordings
 - [ ] A clean UI to view the video recordings + see stack traces
