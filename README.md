@@ -6,7 +6,7 @@ I made QA GPT to help engineers & QA teams test the functionality of their produ
 
 Here's a short demo video showing how it works:
 
-https://nucleus-form.s3.us-west-2.amazonaws.com/Screen+Recording+2023-12-07+at+10.53.23+PM.mov
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/Adu9adzuKeo/0.jpg)](https://youtu.be/Adu9adzuKeo)
 
 ## Running QA GPT
 
