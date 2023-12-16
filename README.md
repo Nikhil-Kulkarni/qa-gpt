@@ -15,7 +15,8 @@ Running QA GPT is remarkably simple, as it's just a simple python project. Note 
 1. Get your GPT-4-Vision enabled API key from OpenAI
 2. Drop the key into the `OPENAI_API_KEY` environment variable
 3. Open `main.py` and change the `task` and url in the initial `driver.navigate` to match your test case
-4. Run `python main.py`
+5. Activate a python virtual environment if you are using one and install requirements: `pip install -r requirements.txt`. 
+5. Run `python main.py`
 
 I've included an example testing task in `main.py` that logs into a website with the given credentials, makes a change to an input field, saves it, and verifies that it was successfully saved. Feel free to modify the task and url as you wish to fit your test case.
 
